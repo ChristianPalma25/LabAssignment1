@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    padding: 20px 0px 15px 0px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Box-Shadow {
+    -webkit-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.Main-Body-Container {
+    background-image: url('../img/bg_background.jpg');
+}
+
+.Main-Header,
+.Main-Footer {
+    height: 75px;
+    width: 100vw;
+    background-color: #bf4aa8;
+}
+
+.Logo-Text {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Main-Container {
+    height: calc(100vh - 150px);
+    width: 90vw;
+    margin: 0px auto;
+
+}
+
+.Top-Section {
+    width: 100%;
+    background-color: #557A95;
+    height: 210px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.Top-Inner-Section {
+    overflow: auto;
+}
+
+.Bottom-Section {
+    width: 100%;
+    height: 70%;
+    background-color: #557A95;
+}
+
+.Sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: #DB7093;
+    float: left;
+}
+
+.Gallery {
+    height: 100%;
+    margin-left: 25%;
+    padding: 0px 1em;
+    overflow: auto;
+}
+
+.Pic-Container {
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.Pic-Container>img {
+    object-fit: cover;
+    display: block;
+    width: 190px;
+    margin: 10px;
+    transform: rotate(90deg);
+}
+
+.Sidebar>ul {
+    list-style-type: none;
+}
+
+.Sidebar>ul>li>a {
+    padding: 15px 20px;
+    display: block;
+    background-color: #DB7093;
+    border: 1px solid #f1f1f1;
+    transition-duration: 0.5s;
+}
+
+.Sidebar>ul>li>a:hover {
+    background-color: rgb(173, 0, 179);
+}
+
+
+.Gallery-Container {
+    list-style-type: none;
+    text-align: center;
+}
+
+.Gallery-Container>li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.Gallery-Container>li>img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Footer-Text {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
